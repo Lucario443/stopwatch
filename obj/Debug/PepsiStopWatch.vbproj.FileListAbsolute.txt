@@ -1,0 +1,17 @@
+C:\Users\Pepsi\Documents\PepsiStopWatch\bin\Debug\PepsiStopWatch.exe.config
+C:\Users\Pepsi\Documents\PepsiStopWatch\bin\Debug\PepsiStopWatch.exe
+C:\Users\Pepsi\Documents\PepsiStopWatch\bin\Debug\PepsiStopWatch.pdb
+C:\Users\Pepsi\Documents\PepsiStopWatch\bin\Debug\PepsiStopWatch.xml
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.vbprojAssemblyReference.cache
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.Form1.resources
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.Resources.resources
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.vbproj.GenerateResource.cache
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.vbproj.CoreCompileInputs.cache
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.exe
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.xml
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.pdb
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.FormTimer.resources
+C:\Users\Pepsi\Documents\PepsiStopWatch\bin\Debug\PepsiStopWatch.exe.manifest
+C:\Users\Pepsi\Documents\PepsiStopWatch\bin\Debug\PepsiStopWatch.application
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.exe.manifest
+C:\Users\Pepsi\Documents\PepsiStopWatch\obj\Debug\PepsiStopWatch.application

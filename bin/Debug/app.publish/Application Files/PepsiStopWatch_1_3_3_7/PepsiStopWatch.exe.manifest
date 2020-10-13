@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PepsiStopWatch.exe" version="1.3.3.7" publicKeyToken="b6b5904e3b2d81f0" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="stopwatch_PKJ_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PepsiStopWatch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PepsiStopWatch.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PepsiStopWatch.exe" size="928736">
+      <assemblyIdentity name="PepsiStopWatch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nUlNxce+qSN357JWR85ogNctock95S42fCMFkw0J50k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PepsiStopWatch.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="stopwatch_PKJ_icon.ico" size="299417">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J+YGvZBT9lcvWiTa5Em7XnGxtKOiddp9wEmAvPl/kBc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-QOQHULA\Pepsi" issuerKeyHash="b4e5c97d09173ca84209c1fff2d5d3a66618f985" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LqjHr0RO96HNb0GZBTiaJ0VBJ8Zx11VT2LFOYY22CuQ=</DigestValue></Reference></SignedInfo><SignatureValue>K/t+hkRSHxBGf7ivKyO8vBvTaS//oCps/W+xX3yukZmKceibtRtW9mZ4xAeCLcn7DOvTAlsNAiwHB6DSx6NsfPN5oH+zGBAPRHm+fxo/++6pOCT28eHlZDwE4tFlA+wncY3WSnZLFt3Gy+EfmFBP7aEjmgZI8O4jqxmUIrSpCRM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mvxwURJXccgJ8GVtxgAsVcf8NBJ87USPT6OkUZUL1Ja5gwU0QsBSCqLjRR/51mF+NFinUvTrFOwKNeXp/f3qyjFEpO0EMeiCjKcN7bgsjZhR+xXGnuG3HfakOlum9D+d5hAs3A6mEpvsXxcJxVvw7lm1cfR4GrTs5oQiSAR8RF0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e40ab68d614eb1d85355d771c6274145279a380599416fcda1f74e44afc7a82e" Description="" Url=""><as:assemblyIdentity name="PepsiStopWatch.exe" version="1.3.3.7" publicKeyToken="b6b5904e3b2d81f0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-QOQHULA\Pepsi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nMHONZOVCw+H+YZcJ24De9tya1YZDbibprJoBmuQmXM=</DigestValue></Reference></SignedInfo><SignatureValue>fRlv89cyBnjRCQVws2iEyfZ6h+dUpEChg/Hns8NUWdCI6HiBh14+Twy46qEDxd5gHjjFItegCidGIn9jsxYlJypQZThBAMulyFGW1ubY6F257oowAY0xpd722gealjx0bQgrjwSdlNhSqNVOGznLe+ap0b2EweY/LAKFuPEoQos=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mvxwURJXccgJ8GVtxgAsVcf8NBJ87USPT6OkUZUL1Ja5gwU0QsBSCqLjRR/51mF+NFinUvTrFOwKNeXp/f3qyjFEpO0EMeiCjKcN7bgsjZhR+xXGnuG3HfakOlum9D+d5hAs3A6mEpvsXxcJxVvw7lm1cfR4GrTs5oQiSAR8RF0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQS7gmnjJQFIFFbTbh21WYsTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFEATwBRAEgAVQBMAEEAXABQAGUAcABzAGkwHhcNMjAxMDEzMjAyMjQ1WhcNMjExMDE0MDIyMjQ1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFEATwBRAEgAVQBMAEEAXABQAGUAcABzAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJr8cFESV3HICfBlbcYALFXH/DQSfO1Ej0+jpFGVC9SWuYMFNELAUgqi40Uf+dZhfjRYp1L06xTsCjXl6f396soxRKTtBDHogoynDe24LI2YUfsVxp7htx32pDpbpvQ/neYQLNwOphKb7F8XCcVb8O5ZtXH0eBq07OaEIkgEfERdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAOg6jmwuMcpvr/YRUC6VJa/B8XGc2FLfkC8QeeJ2aXUvywZ3KoNx+muKylVfUkX5VHR3N8LsaYjc8ZMOskAEu/64WshrY1wJ+OT9vE50MBZ6TQLEFcQ/b3Prx48M59lmp5Yb+sBWJq79HUJ72F6nSkAr2YGesUcpaAquLbjgOpwE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
